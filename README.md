@@ -22,11 +22,11 @@ Follow these steps to set up and run the project locally on any device.
 
 ### 1️⃣ Clone the Repository
 ```bash
-git clone https://github.com/<your-username>/job-application-tracker.git
+git clone https://github.com/vamsiKampani/Job-Application-tracker.git
 cd job-application-tracker
 ```
 
-*(Replace `<your-username>` with your actual GitHub username.)*
+*(Replace `vamsiKampani` with your actual GitHub username.)*
 
 ---
 
@@ -108,7 +108,6 @@ job-application-tracker/
 | Frontend | React, Tailwind CSS, Vite |
 | Backend | Node.js, Express.js |
 | Database | MongoDB (Mongoose ORM) |
-| Deployment (optional) | Render / Railway (Backend), Netlify / Vercel (Frontend) |
 
 ---
 
@@ -120,14 +119,6 @@ job-application-tracker/
 | POST | `/api/jobs` | Create a new job application |
 | PUT | `/api/jobs/:id` | Update a job application |
 | DELETE | `/api/jobs/:id` | Delete a job application |
-
----
-
-## 🧩 Optional Enhancements
-- 🔐 Add user authentication (JWT)
-- 📊 Add sorting & pagination
-- ☁️ Deploy to Netlify (frontend) and Render (backend)
-- 🧠 Add analytics dashboard for application stats
 
 ---
 
@@ -152,13 +143,9 @@ If you’d like to improve this project:
 ## 📬 Contact
 If you have any questions or suggestions, feel free to reach out:
 
-**Author:** [Your Full Name]  
-**Email:** your.email@example.com  
-**GitHub:** [https://github.com/your-username](https://github.com/your-username)
-
----
+**Author:** [Kampani krishnavamsi]  
+**Email:** krishnavamsiofficial9@gmail.com  
+**GitHub:** ()
 
 ### 🏁 Final Words
 This project demonstrates a complete end-to-end MERN stack implementation — showing your ability to handle backend APIs, frontend UI design, validation, and clean architecture.
-
-> _“Great software isn’t written — it’s crafted with purpose.”_ ✨
