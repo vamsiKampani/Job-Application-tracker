@@ -1,0 +1,121 @@
+.login-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: linear-gradient(135deg, #1a1a1a, #2b2b2b);
+  font-family: "Poppins", sans-serif;
+}
+
+.login-card {
+  background: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(12px);
+  border-radius: 16px;
+  padding: 40px 50px;
+  text-align: center;
+  color: #fff;
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.4);
+  width: 90%;
+  max-width: 400px;
+  animation: fadeIn 1s ease-in-out;
+}
+
+.login-title {
+  font-size: 2rem;
+  font-weight: 700;
+  margin-bottom: 8px;
+  color: #ffffff;
+  text-shadow: 0 0 10px #00ffff;
+}
+
+.login-subtitle {
+  font-size: 1rem;
+  margin-bottom: 25px;
+  color: #d1d1d1;
+}
+
+.login-form input {
+  width: 100%;
+  margin: 10px 0;
+  padding: 12px 14px;
+  border: none;
+  border-radius: 8px;
+  background: #f4f4f4;
+  color: #000;
+  font-size: 1rem;
+  outline: none;
+}
+
+.explore-btn {
+  width: 100%;
+  margin-top: 15px;
+  padding: 12px;
+  background: linear-gradient(90deg, #00bcd4, #2196f3);
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-size: 1.1rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: transform 0.2s ease, box-shadow 0.3s ease;
+}
+
+.explore-btn:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 4px 15px rgba(33, 150, 243, 0.5);
+}
+
+.divider {
+  margin: 20px 0;
+  color: #ccc;
+  font-size: 0.9rem;
+}
+
+.social-login {
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+}
+
+.social-btn {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: none;
+  border-radius: 8px;
+  padding: 10px 0;
+  cursor: pointer;
+  font-weight: 600;
+  font-size: 0.9rem;
+  transition: transform 0.2s ease;
+}
+
+.social-btn .icon {
+  margin-right: 8px;
+  font-size: 1.2rem;
+}
+
+.google {
+  background: white;
+  color: #000;
+}
+
+.facebook {
+  background: #1877f2;
+  color: white;
+}
+
+.github {
+  background: #24292e;
+  color: white;
+}
+
+.social-btn:hover {
+  transform: scale(1.05);
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; transform: scale(0.95); }
+  to { opacity: 1; transform: scale(1); }
+}
