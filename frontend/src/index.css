@@ -1,0 +1,9 @@
+body {
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+  background-color: #f7f9fc;
+}
+
+button {
+  cursor: pointer;
+}
