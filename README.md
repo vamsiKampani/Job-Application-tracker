@@ -145,7 +145,7 @@ If you have any questions or suggestions, feel free to reach out:
 
 **Author:** [Kampani krishnavamsi]  
 **Email:** krishnavamsiofficial9@gmail.com  
-**GitHub:** ()
+**GitHub:** (https://github.com/vamsiKampani)
 
 ### 🏁 Final Words
 This project demonstrates a complete end-to-end MERN stack implementation — showing your ability to handle backend APIs, frontend UI design, validation, and clean architecture.
